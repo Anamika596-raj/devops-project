@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps CI/CD Automation Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <canvas id="pipeline-canvas" aria-hidden="true"></canvas>
+
+  <main class="hero">
+    <div class="hero-inner">
+
+      <div class="badge" aria-label="Platform type">
+        <span class="badge-dot"></span>
+        CI/CD Automation Platform
+      </div>
+
+      <h1 class="heading">
+        <span class="heading-line">DevOps</span>
+        <span class="heading-line accent-gradient">CI/CD Automation</span>
+        <span class="heading-line">Platform</span>
+      </h1>
+
+      <div class="sublines">
+        <p class="subline">Automating software delivery through Continuous Integration and Continuous Deployment.</p>
+        <p class="subline">Enhancing reliability, scalability, and efficiency with modern DevOps practices.</p>
+      </div>
+
+      <div class="divider" aria-hidden="true">
+        <span class="divider-line"></span>
+        <span class="divider-icon">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="9" cy="9" r="3.5" fill="url(#circleGrad)"/>
+            <circle cx="9" cy="9" r="7.5" stroke="url(#circleGrad)" stroke-width="1" stroke-dasharray="2 3"/>
+            <defs>
+              <linearGradient id="circleGrad" x1="0" y1="0" x2="18" y2="18">
+                <stop offset="0%" stop-color="#2563EB"/>
+                <stop offset="100%" stop-color="#06B6D4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="divider-line"></span>
+      </div>
+
+      <p class="team-label">Team Member</p>
+
+      <div class="team-grid">
+
+        <div class="card" style="--delay: 0s">
+          <div class="card-glow"></div>
+          <div class="card-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">A</div>
+          </div>
+          <div class="card-body">
+            <h2 class="card-name">Anamika Raj</h2>
+            <p class="card-role">Lead DevOps Engineer</p>
+            <div class="card-tags">
+              <span class="tag">CI/CD</span>
+              <span class="tag">Kubernetes</span>
+            </div>
+          </div>
+          <div class="card-status">
+            <span class="status-dot"></span>Available
+          </div>
+        </div>
+
+        <div class="card card--featured" style="--delay: 0.1s">
+          <div class="card-glow"></div>
+          <div class="card-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">K</div>
+          </div>
+          <div class="card-body">
+            <h2 class="card-name">Karina kumari</h2>
+            <p class="card-role">Platform Architect</p>
+            <div class="card-tags">
+              <span class="tag">AWS</span>
+              <span class="tag">Terraform</span>
+            </div>
+          </div>
+          <div class="card-status">
+            <span class="status-dot"></span>Available
+          </div>
+        </div>
+
+        <div class="card" style="--delay: 0.2s">
+          <div class="card-glow"></div>
+          <div class="card-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">B</div>
+          </div>
+          <div class="card-body">
+            <h2 class="card-name">Baby kumari</h2>
+            <p class="card-role">SRE Specialist</p>
+            <div class="card-tags">
+              <span class="tag">Monitoring</span>
+              <span class="tag">Docker</span>
+            </div>
+          </div>
+          <div class="card-status">
+            <span class="status-dot"></span>Available
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
