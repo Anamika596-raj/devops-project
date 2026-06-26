@@ -1,14 +1,11 @@
-FROM python:3.11-slim
-
-WORKDIR /app
-
-COPY requirements.txt .
-
-RUN pip install -r requirements.txt
-
-COPY . .
-
-EXPOSE 5000
-
-CMD ["python", "app.py"]
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Apache Website</title>
+</head>
+<body>
+    <h1>Welcome to Apache Server!</h1>
+    <p>My website is running successfully on Apache.</p>
+</body>
+</html>
 
